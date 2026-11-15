@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleos Connect design assets 2.15 "ic_sound / volume_mute" (.fig에서 벡터 그대로 추출) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M31.117 29.162C30.788 29.662 30.407 30.136 29.972 30.576C29.337 31.22 29.343 32.259 29.986 32.895C30.629 33.532 31.665 33.525 32.3 32.881C32.728 32.448 33.117 31.991 33.469 31.514L31.117 29.162Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M36.178 34.224C35.805 34.698 35.403 35.156 34.971 35.596C34.336 36.241 34.344 37.279 34.988 37.915C35.631 38.55 36.668 38.543 37.302 37.898C37.728 37.464 38.13 37.016 38.508 36.554L36.178 34.224Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M40.556 33.51L38.12 31.074C40.985 24.975 39.935 17.442 34.971 12.393C34.336 11.748 34.344 10.71 34.988 10.075C35.631 9.439 36.668 9.446 37.302 10.092C43.54 16.435 44.625 26.034 40.556 33.51Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M35.224 28.178L32.536 25.49C32.987 22.642 32.132 19.62 29.971 17.422C29.336 16.777 29.344 15.739 29.988 15.103C30.631 14.467 31.668 14.475 32.302 15.12C35.779 18.656 36.754 23.765 35.224 28.178Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M11.273 9.227C10.57 8.524 9.43 8.524 8.727 9.227C8.024 9.93 8.024 11.07 8.727 11.773L13.689 16.735L11.607 18.327L7.636 18.327C6.733 18.327 6 19.061 6 19.967L6 28.026C6 28.93 6.731 29.664 7.633 29.666L11.607 29.673L23.008 38.388C24.085 39.212 25.636 38.442 25.636 37.084L25.636 28.682L36.727 39.773C37.43 40.476 38.57 40.476 39.273 39.773C39.976 39.07 39.976 37.93 39.273 37.227L11.273 9.227Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M25.636 10.916L25.636 18.591L19.409 12.363L23.008 9.612C24.085 8.788 25.636 9.558 25.636 10.916Z" />
+</vector>

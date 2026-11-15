@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleos Connect design assets 2.15 "ic_sound / volume_high" (.fig에서 벡터 그대로 추출) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M11.607 18.327L7.636 18.327C6.733 18.327 6 19.061 6 19.967L6 28.026C6 28.93 6.731 29.664 7.633 29.665L11.607 29.673L23.008 38.388C24.085 39.212 25.636 38.442 25.636 37.084L25.636 10.915C25.636 9.558 24.085 8.788 23.008 9.612L11.607 18.327Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M34.988 10.074C35.631 9.439 36.668 9.446 37.302 10.091C44.853 17.77 44.853 30.219 37.302 37.898C36.668 38.543 35.631 38.55 34.988 37.915C34.344 37.279 34.336 36.241 34.971 35.596C41.266 29.194 41.266 18.795 34.971 12.393C34.336 11.748 34.344 10.71 34.988 10.074Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M32.302 15.12C31.668 14.475 30.631 14.467 29.988 15.103C29.344 15.738 29.336 16.777 29.971 17.422C33.547 21.059 33.545 26.952 29.972 30.576C29.337 31.22 29.343 32.258 29.986 32.895C30.629 33.531 31.665 33.525 32.3 32.881C37.134 27.978 37.132 20.032 32.302 15.12Z" />
+</vector>

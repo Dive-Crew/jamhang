@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pleos Connect design assets 2.15 "ic_charging" (.fig에서 벡터 그대로 추출) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M25.593 20.163L28.292 2.927C28.427 2.067 27.287 1.641 26.824 2.377L11.124 27.369C10.789 27.902 11.172 28.595 11.801 28.595L21.759 28.595L19.06 45.831C18.925 46.69 20.065 47.117 20.527 46.38L36.228 21.388C36.563 20.856 36.18 20.163 35.551 20.163L25.593 20.163Z" />
+</vector>

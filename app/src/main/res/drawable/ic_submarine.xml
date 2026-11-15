@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  잠수함 (Figma jamhang/art/submarine 원본 PNG 200×120을 같은 좌표계에서 벡터로 따라 그림).
+  큰 화면(잠항 중 490dp)에서도 흐려지지 않게 비트맵 대신 벡터로 둔다.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="186dp"
+    android:height="101dp"
+    android:viewportWidth="186"
+    android:viewportHeight="101">
+
+    <group android:translateX="-6" android:translateY="-3">
+
+        <!-- 잠망경 -->
+        <path
+            android:fillColor="#9DB4B0"
+            android:pathData="M104.5,17.5 L104.5,6.2 Q104.5,4.5 106.2,4.5 L120.3,4.5 Q121.5,4.5 121.5,5.75 Q121.5,7 120.3,7 L108,7 L108,17.5 Z" />
+
+        <!-- 꼬리 지느러미 -->
+        <path
+            android:strokeColor="#CFE0D6"
+            android:strokeWidth="0.8"
+            android:strokeLineJoin="round"
+            android:pathData="M7.5,41.2 L31.5,55 L31.5,80.5 L7.5,92.5 L16.2,66.5 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="19" android:startY="41"
+                    android:endX="19" android:endY="93">
+                    <item android:offset="0" android:color="#8EA9A6" />
+                    <item android:offset="1" android:color="#5C7E82" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 함교 -->
+        <path
+            android:fillColor="#6C8F90"
+            android:strokeColor="#CFE0D6"
+            android:strokeWidth="0.8"
+            android:pathData="M88.8,42 L90.4,21.5 Q90.9,15.5 96.9,15.5 L122.6,15.5 Q128.6,15.5 129.1,21.5 L130.3,42 Z" />
+
+        <!-- 선체 -->
+        <path
+            android:strokeColor="#D3E3D8"
+            android:strokeWidth="0.9"
+            android:pathData="M26.5,69 C26.5,48.5 58,36.2 108.5,36.2 C160,36.2 191,49.5 191,69 C191,88.8 160,101.2 108.5,101.2 C58,101.2 26.5,89.5 26.5,69 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="108" android:startY="36"
+                    android:endX="108" android:endY="101">
+                    <item android:offset="0" android:color="#A9C1BA" />
+                    <item android:offset="0.55" android:color="#7C9C9C" />
+                    <item android:offset="1" android:color="#557A80" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 위쪽 반사광 -->
+        <path
+            android:strokeColor="#D6E5DC"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M42.5,53.8 Q96,40 151.5,50.2" />
+
+        <!-- 아래 선 -->
+        <path
+            android:strokeColor="#3E6368"
+            android:strokeWidth="1"
+            android:strokeLineCap="round"
+            android:pathData="M40,86.2 Q105,100 172.5,86.2" />
+
+        <!-- 창 3개: 밝은 테 + 어두운 유리 + 반짝임 -->
+        <path android:fillColor="#D3E3D8" android:pathData="M94,68 m-11.3,0 a11.3,11.3 0 1,0 22.6,0 a11.3,11.3 0 1,0 -22.6,0 Z" />
+        <path android:fillColor="#D3E3D8" android:pathData="M126.3,68 m-11.3,0 a11.3,11.3 0 1,0 22.6,0 a11.3,11.3 0 1,0 -22.6,0 Z" />
+        <path android:fillColor="#D3E3D8" android:pathData="M158.3,68 m-11.3,0 a11.3,11.3 0 1,0 22.6,0 a11.3,11.3 0 1,0 -22.6,0 Z" />
+        <path android:fillColor="#1D4352" android:pathData="M94,68 m-9.6,0 a9.6,9.6 0 1,0 19.2,0 a9.6,9.6 0 1,0 -19.2,0 Z" />
+        <path android:fillColor="#1D4352" android:pathData="M126.3,68 m-9.6,0 a9.6,9.6 0 1,0 19.2,0 a9.6,9.6 0 1,0 -19.2,0 Z" />
+        <path android:fillColor="#1D4352" android:pathData="M158.3,68 m-9.6,0 a9.6,9.6 0 1,0 19.2,0 a9.6,9.6 0 1,0 -19.2,0 Z" />
+        <path android:strokeColor="#E8F1EC" android:strokeWidth="1.1" android:strokeLineCap="round" android:pathData="M89.6,64.8 Q91.2,61.6 94.6,61.4" />
+        <path android:strokeColor="#E8F1EC" android:strokeWidth="1.1" android:strokeLineCap="round" android:pathData="M121.9,64.8 Q123.5,61.6 126.9,61.4" />
+        <path android:strokeColor="#E8F1EC" android:strokeWidth="1.1" android:strokeLineCap="round" android:pathData="M153.9,64.8 Q155.5,61.6 158.9,61.4" />
+    </group>
+</vector>
