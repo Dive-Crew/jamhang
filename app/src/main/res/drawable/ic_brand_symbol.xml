@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figma 280:32476 "refined brand symbol" (66.24×66.24): 앱 바 제목 옆 · 런처 아이콘 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="66.24dp"
+    android:height="66.24dp"
+    android:viewportWidth="66.24"
+    android:viewportHeight="66.24">
+    <path
+        android:fillColor="@color/brand_symbol"
+        android:fillType="evenOdd"
+        android:pathData="M13.17,31.6 L43.09,31.6 A9.85,9.85 0 0 1 43.09,51.3 L13.17,51.3 A9.85,9.85 0 0 1 13.17,31.6 Z M18.3,41.4 m-3.36,0 a3.36,3.36 0 1 0 6.72,0 a3.36,3.36 0 1 0 -6.72,0 Z M31.5,41.4 m-3.36,0 a3.36,3.36 0 1 0 6.72,0 a3.36,3.36 0 1 0 -6.72,0 Z M44.8,41.4 m-3.36,0 a3.36,3.36 0 1 0 6.72,0 a3.36,3.36 0 1 0 -6.72,0 Z" />
+    <path
+        android:strokeColor="@color/brand_symbol"
+        android:strokeWidth="4.1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M23.2,32.6 L23.2,24.95 L34.9,24.95 L34.9,18.25 L42.95,18.25" />
+</vector>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">잠항</string>
+    <string name="notification_channel">잠항 중</string>
+</resources>
