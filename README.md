@@ -34,6 +34,23 @@
 
 ---
 
+## 시연 영상
+
+[![시연 영상](docs/screenshots/demo_thumb.png)](demo/jamhang_demo.mp4)
+
+[`demo/jamhang_demo.mp4`](demo/jamhang_demo.mp4) · 6분 14초 · 소리 포함
+
+| 순서 | 내용 |
+|---|---|
+| ① | 홈 → 항해 일지 → 프로필·기록 |
+| ② | 충전 대기 휴식 제안 → 내비로 바다 코스 보내기 |
+| ③ | 잠항 준비 → 해치(안전 확인) → 호흡 안내 음성 |
+| ④ | 문이 열리면 멈추고 묻기 |
+| ⑤ | 이어서 쉬기 → 1분 전 예고 → 부상, 지층 +1겹 |
+| ⑥ | 바로 쉬기 → 기어가 P를 벗어나면 자동 부상 |
+
+---
+
 ## 실행 방법
 
 ### 요구 사항
@@ -69,6 +86,7 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 | 언어·UI | Kotlin, Jetpack Compose |
 | SDK | Pleos Vehicle SDK 2.3.2, NaviHelper SDK 3.0.5, SpeechToText SDK 3.3.1 |
 | 검증 환경 | Pleos Connect Emulator v2.1.0 (API 34), macOS |
+| 화면 규격 | AVD 화면 2560×1440, 160dpi · 앱 디자인 영역 1700×1184 |
 | 빌드 환경 | JDK 17, Gradle 9.9, Android Gradle Plugin 9.5.1, Kotlin 2.2.10 |
 | 검증 방식 | 내장 시연 도구를 이용한 수동 시나리오 테스트, `./gradlew assembleDebug` 빌드 확인 |
 
@@ -90,17 +108,16 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 
 | 파일 | 설명 |
 |---|---|
-| `app/build/outputs/apk/debug/app-debug.apk` | `./gradlew assembleDebug` 빌드 결과 (versionName 1.0) |
+| [`apk/Dive-Crew_JAMHANG_release.apk`](apk/Dive-Crew_JAMHANG_release.apk) | 제출용 release APK (versionName 1.0, 서명 완료) |
 
 ```bash
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb install -r apk/Dive-Crew_JAMHANG_release.apk
 ```
 
-`build/` 디렉터리는 Git 추적 대상에서 제외되어 있으므로 저장소를 새로 받은 뒤에는 APK를 다시 빌드해야 합니다.
+release APK는 별도 키 없이 설치되도록 Android 기본 디버그 키로 서명합니다. 직접 다시 만들려면 `./gradlew assembleRelease`를 실행하면 `app/build/outputs/apk/release/app-release.apk`가 생성됩니다.
 
 ---
 
 ## 참고
 
 - 1분 전 예고와 호흡 안내에는 미리 합성한 AI 음성을 사용합니다. 자세한 표기는 [`docs/NOTICE.md`](docs/NOTICE.md)에 있습니다.
-- 전체 흐름은 [`demo/jamhang_demo.mp4`](demo/jamhang_demo.mp4)에서 확인할 수 있습니다.

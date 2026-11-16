@@ -18,6 +18,8 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            // 제출용 APK: 별도 키 없이 설치·실행되도록 Android 기본 디버그 키로 서명
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
